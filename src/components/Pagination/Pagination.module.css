@@ -1,0 +1,30 @@
+.pagination {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.pageNumber {
+  padding: 5px 10px;
+  border: 1px solid inherit;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: var(--transition);
+}
+
+.pageNumber.active {
+  background-color: var(--accent-red);
+  color: white;
+}
+
+.pageNumber:hover {
+  color: white;
+}
+
+.pageNumber.disabled {
+  cursor: default;
+  opacity: 0.5;
+}

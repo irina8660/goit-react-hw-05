@@ -1,0 +1,21 @@
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 12px;
+}
+
+.link {
+  padding: 8px 16px;
+  border-radius: 8px;
+  text-decoration: none;
+  color: var(--gray);
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.active {
+  color: white;
+  background-color: var(--accent-red);
+  box-shadow: var(--shadow);
+}

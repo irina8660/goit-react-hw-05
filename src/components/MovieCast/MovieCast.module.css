@@ -1,0 +1,38 @@
+.list {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+.item {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  /* justify-content: center; */
+  width: 200px;
+  overflow: hidden;
+}
+.img {
+  border-radius: 8px;
+  object-fit: cover;
+  height: 300px;
+}
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.name {
+  text-align: center;
+  font-size: 24px;
+  font-weight: normal;
+  letter-spacing: normal;
+}
+.title {
+  font-weight: normal;
+  letter-spacing: normal;
+  color: var(--gray);
+}
